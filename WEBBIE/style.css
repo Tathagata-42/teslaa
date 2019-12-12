@@ -1,0 +1,209 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: "Poppins", sans-serif;
+}
+
+button{
+
+    font-family: "Poppins", sans-serif;
+}
+
+
+header{
+
+    display: flex;
+    
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    margin-top: 20px;
+    
+
+    
+}
+
+.logo-container,nav,.cart{
+
+    display: flex;
+    flex: 1;
+}
+
+
+.logo{
+
+    font-weight: 400;
+    margin: 20px;
+}
+.logo-container,{
+
+
+   
+    flex: 1;
+
+
+}
+
+nav{
+
+    
+    flex: 2;
+    justify-content: space-around;
+    list-style: none;
+    
+
+   
+    font-weight: 400;
+    
+   
+    
+}
+
+.cart{
+
+    justify-content: flex-end;
+    background: white;
+}
+
+.presentation{
+
+    display:flex;
+    width: 80%;
+    margin:auto;
+    min-height: 80vh;
+    align-items: center;
+    
+    
+}
+
+.introduction
+{
+
+    
+    flex: 1;
+
+}
+
+.cover
+{
+    flex: 1;
+}
+
+.intro-text p{
+
+
+    margin: 5px;
+    font-size: 20px;
+    color: teal;
+
+
+
+}
+
+.cta
+{
+
+    padding: 50px 0px 0px 0px;
+
+
+
+
+
+}
+
+.cta-select{
+
+    border: 2px solid #040FA9 ;
+    background: transparent;
+    color: #040FA9;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    
+}
+
+
+.cta-add{
+    
+
+
+    background:  #040FA9 ;
+
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    border: none;
+    color: white;
+
+    margin-left: 30px;
+    
+
+    
+
+
+
+}
+.intro-text h1{
+
+    font-size: 46px;
+    font-weight: 500;
+
+    background: linear-gradient(to right, #F90505, #440202);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+
+}
+
+.cover img{
+    height: 50vh;
+    margin-left: 100px;
+    animation: drop 1.5s ease;
+
+    
+    
+}
+
+.car-select{
+
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 20%;
+
+
+}
+
+@keyframes drop{
+
+    0%{
+
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+
+    100%{
+
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+
+}
+
+
+
+
